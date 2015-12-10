@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'ShakeReport_Example', :exclusive => true do
+  pod "ShakeReport", :path => "../"
+end
+
+target 'ShakeReport_Tests', :exclusive => true do
+  pod "ShakeReport", :path => "../"
+
+  
+end
