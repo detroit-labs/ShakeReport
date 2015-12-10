@@ -1,0 +1,14 @@
+PODS:
+  - ShakeReport (0.1.0)
+
+DEPENDENCIES:
+  - ShakeReport (from `../`)
+
+EXTERNAL SOURCES:
+  ShakeReport:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ShakeReport: d2960ada7306fa5b873da40e4c648c586b79c73b
+
+COCOAPODS: 0.39.0
