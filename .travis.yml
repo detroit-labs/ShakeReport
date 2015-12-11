@@ -2,6 +2,11 @@
 # * http://www.objc.io/issue-6/travis-ci.html
 # * https://github.com/supermarin/xcpretty#usage
 
+# whitelist
+branches:
+  only:
+    - develop
+    - master
 language: objective-c
 # cache: cocoapods
 # podfile: Example/Podfile
