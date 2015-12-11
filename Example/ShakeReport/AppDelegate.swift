@@ -20,8 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     *  Configure ShakeReport with an array of email recipients (required)
     *  and an optional custom subject line to use for all bug reports.
     */
-    UIViewController.configure(to: ["example@email.com"], subject: "Bug Report")
-  
+    ShakeReport.configure(to: ["example@email.com"], subject: "Bug Report")
+    
     return true
   }
 

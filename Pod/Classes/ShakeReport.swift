@@ -9,25 +9,29 @@ import UIKit
 import MessageUI
 
 
-typealias ShakeReport = UIViewController  
-
-public extension UIViewController {
+public class ShakeReport {
   
-  struct Config {
+  private struct Config {
     static var toRecipients: [String]?
     static var subject: String?
   }
   
   // MARK: - Configuration
   
+  /**
+  Set bug report email recipient(s) and custom subject line.
+  
+  - parameter toRecipients: List of email addresses to which the report will be sent.
+  - parameter subject:      Custom subject line to use for the report email.
+  */
   public class func configure(to toRecipients: [String]!, subject: String?) {
     Config.toRecipients = toRecipients
     Config.subject = subject
   }
   
-  public class func configure(to toRecipients: [String]!) {
-    configure(to: toRecipients, subject: nil)
-  }  
+}
+
+extension UIViewController: MFMailComposeViewControllerDelegate {
   
   // MARK: - UIResponder
   
@@ -42,7 +46,7 @@ public extension UIViewController {
       let actionSheet = UIAlertController(title: "Shake detected!", message: "Would you like to report a bug?", preferredStyle: .ActionSheet)
       
       let reportBugAction = UIAlertAction(title: "Report A Bug", style: .Default, handler: { (action) -> Void in
-        self.sendReport(cachedScreenshot)
+        self.composeReport(cachedScreenshot)
       })
       
       let cancelAction = UIAlertAction(title: "Cancel", style: .Cancel) { _ in }
@@ -56,6 +60,11 @@ public extension UIViewController {
   
   // MARK: - Report methods
   
+  /**
+  Take a screenshot for the current screen state.
+  
+  - returns: Screenshot image.
+  */
   private func captureScreenshot() -> UIImage? {
     var screenshot: UIImage? = nil
     
@@ -76,7 +85,13 @@ public extension UIViewController {
     return screenshot;
   }
   
-  private func sendReport(screenshot: UIImage?) {
+  /**
+   Present the user with a mail compose view with the recipient(s) & subject line
+   pre-populated, and the screenshot attached.
+   
+   - parameter screenshot: The screenshot to attach to the report.
+   */
+  private func composeReport(screenshot: UIImage?) {
     if MFMailComposeViewController.canSendMail() {
       let mailComposer = MFMailComposeViewController()
       
@@ -93,11 +108,11 @@ public extension UIViewController {
         mailComposer.setSubject("Bug Report")
       }
       
-//      mailComposer.mailComposeDelegate = self
+      mailComposer.mailComposeDelegate = self
       
-      if let screenshot = screenshot, let screenshotJPEG = UIImageJPEGRepresentation(screenshot, CGFloat(1.0)) {
-        mailComposer.addAttachmentData(screenshotJPEG, mimeType: "image/jpeg", fileName: "screenshot.jpeg")
-      }
+//      if let screenshot = screenshot, let screenshotJPEG = UIImageJPEGRepresentation(screenshot, CGFloat(1.0)) {
+//        mailComposer.addAttachmentData(screenshotJPEG, mimeType: "image/jpeg", fileName: "screenshot.jpeg")
+//      }
       
       presentViewController(mailComposer, animated: true, completion: nil)
     }
