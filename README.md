@@ -1,6 +1,6 @@
 # ShakeReport
 
-[![CI Status](http://img.shields.io/travis/git/ShakeReport.svg?style=flat)](https://travis-ci.org/git/ShakeReport)
+[![CI Status](http://img.shields.io/travis/detroit-labs/ShakeReport.svg?style=flat)](https://travis-ci.org/detroit-labs/ShakeReport)
 [![Version](https://img.shields.io/cocoapods/v/ShakeReport.svg?style=flat)](http://cocoapods.org/pods/ShakeReport)
 [![License](https://img.shields.io/cocoapods/l/ShakeReport.svg?style=flat)](http://cocoapods.org/pods/ShakeReport)
 [![Platform](https://img.shields.io/cocoapods/p/ShakeReport.svg?style=flat)](http://cocoapods.org/pods/ShakeReport)
