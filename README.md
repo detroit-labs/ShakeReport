@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/ShakeReport.svg?style=flat)](http://cocoapods.org/pods/ShakeReport)
 [![Platform](https://img.shields.io/cocoapods/p/ShakeReport.svg?style=flat)](http://cocoapods.org/pods/ShakeReport)
 
+ShakeReport allows your users to simply submit bug reports by shaking the device.
+When a shake is detected, the current screen state is captured and the user is
+prompted to submit a bug report via a mail composer with the screenshot attached.
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
