@@ -11,6 +11,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+
 ## Installation
 
 ShakeReport is available through [CocoaPods](http://cocoapods.org). To install
@@ -22,7 +23,7 @@ pod "ShakeReport"
 
 ## Author
 
-git, dtrenz@gmail.com
+Dan Trenz ([@dtrenz](http://www.twitter.com/dtrenz)) c/o [Detroit Labs](http://www.detroitlabs.com)
 
 ## License
 

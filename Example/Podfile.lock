@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ShakeReport: d2960ada7306fa5b873da40e4c648c586b79c73b
+  ShakeReport: 01f7fc4f9ffda8231137584621b59c9a8ea635a5
 
 COCOAPODS: 0.39.0

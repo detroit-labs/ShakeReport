@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0ED9F88C0BECE3739D8D46F2148A68CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		0ED9F88C0BECE3739D8D46F2148A68CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3CF3EC2214280890E5F18F4E1A8B3A /* Foundation.framework */; };
 		42CA0930C17002DB86E4D4A2CE6E4251 /* Pods-ShakeReport_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 295917033F59D8140BA1EF84563535E1 /* Pods-ShakeReport_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5BDD787EA598F0E05C546E287B852254 /* ShakeReport.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2FC6B51A54AE8D02EC8C4F35BA70B905 /* ShakeReport.bundle */; };
-		677AF0AE96E7E134C60598C9060F3DC0 /* ShakeReport-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAD0B0C8A5839D85353E6B4138FBF3B /* ShakeReport-dummy.m */; };
-		6C4BB92DCDEF216A57BAAB44D9B15172 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43036566EEB082CECAC2070CAAB7A32C /* ReplaceMe.swift */; };
+		56F9B48E02081F4A3039116D79C1E547 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81A65FB4FF8453B938D64443ED3B42B /* MessageUI.framework */; };
+		6C5B3813DE40422F24E9CFCE3037E8E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D53BD63364B3D698EA09E0ED4C540E /* UIKit.framework */; };
 		82E9F586CD07ADF544760E36347114B9 /* Pods-ShakeReport_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DF20448F786B730268E7C356D8804E /* Pods-ShakeReport_Tests-dummy.m */; };
 		92791247AD3FA372C1DAB84FEA5FB9D1 /* Pods-ShakeReport_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBAB01CBEE99E52A2FBCDC0D2A21D1A5 /* Pods-ShakeReport_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4854A6206BEB02BC85C4BE13B4193A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		9C4B40E4803E6F245C3A2F141CABC264 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3CF3EC2214280890E5F18F4E1A8B3A /* Foundation.framework */; };
+		BA77582B948BEDA0865E4579EBBC35D0 /* ShakeReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB804D62AF11E738BE1CD53733CC258 /* ShakeReport.swift */; };
 		BF45B5CBBC350B7CD06333C42FA0162F /* Pods-ShakeReport_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C53F989DFF7B96877F99AD76A7D930D /* Pods-ShakeReport_Example-dummy.m */; };
 		E08618E134C7911DA0AAA7BC8A073926 /* ShakeReport-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 141E680452F378D55F70E3859233F17C /* ShakeReport-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1CA307AD1FDD238094CF4A1BF6651AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		E5EC4D478AEF3F0FF8422C1A40E0D53E /* ShakeReport-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAD0B0C8A5839D85353E6B4138FBF3B /* ShakeReport-dummy.m */; };
+		F1CA307AD1FDD238094CF4A1BF6651AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3CF3EC2214280890E5F18F4E1A8B3A /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,13 +28,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 7BDFB6DD8032613CA2066A58E9B90FA4;
 			remoteInfo = ShakeReport;
-		};
-		2A94184C20751A3201809D65FA726FC2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BFFD48D36B25C28CACB19B3F5DAB085C;
-			remoteInfo = "ShakeReport-ShakeReport";
 		};
 		B976576723C324A749930CB3BB85E2A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -48,16 +42,15 @@
 		03C96EE874DA969D8F2CD6FCA7250764 /* Pods-ShakeReport_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShakeReport_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0F7761063C14448F833257B88196FA95 /* Pods-ShakeReport_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShakeReport_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		141E680452F378D55F70E3859233F17C /* ShakeReport-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShakeReport-umbrella.h"; sourceTree = "<group>"; };
+		16C77AA4E10F7D8E19944AAE54356834 /* ShakeReport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShakeReport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		174BEA692DF3DCCF5C6A61C79605B775 /* Pods-ShakeReport_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ShakeReport_Example.modulemap"; sourceTree = "<group>"; };
 		1DDA41B24290A33181054AF5A0C6A15B /* Pods-ShakeReport_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShakeReport_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		295917033F59D8140BA1EF84563535E1 /* Pods-ShakeReport_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShakeReport_Tests-umbrella.h"; sourceTree = "<group>"; };
-		2FC6B51A54AE8D02EC8C4F35BA70B905 /* ShakeReport.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakeReport.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		3098F161D5972484E950677ADB3A29CA /* Pods-ShakeReport_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShakeReport_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		33DC40599A6F77221F645604D848F8C9 /* ShakeReport.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShakeReport.xcconfig; sourceTree = "<group>"; };
 		3AA0BF2B6C09ACC5606AC0681945316C /* Pods-ShakeReport_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShakeReport_Example-resources.sh"; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4237DE5AA0A7C0E6AFF61B0C86EDD1AF /* Pods-ShakeReport_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShakeReport_Tests-resources.sh"; sourceTree = "<group>"; };
-		43036566EEB082CECAC2070CAAB7A32C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		5E3CF3EC2214280890E5F18F4E1A8B3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		60CB47E2F001A395EC95387EF24CEE4C /* Pods-ShakeReport_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShakeReport_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6176A28B5F919A6EF6739E76847B53D9 /* ShakeReport.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ShakeReport.modulemap; sourceTree = "<group>"; };
 		675B1BCC32EC677C3FF091EF640085E5 /* Pods-ShakeReport_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShakeReport_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -65,27 +58,31 @@
 		6E9154322F96D79D5389C1D3A03895FE /* Pods-ShakeReport_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShakeReport_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		7E8F4873A227C2694521E0C8D3897CEB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F43C4B29D2D300D943C8D341E885638 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		946E6CEDDD5DF5809183B2A2898D46B9 /* Pods_ShakeReport_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShakeReport_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		819D4825F439A06D23390355DD1B462A /* Pods_ShakeReport_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShakeReport_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C53F989DFF7B96877F99AD76A7D930D /* Pods-ShakeReport_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShakeReport_Example-dummy.m"; sourceTree = "<group>"; };
-		9E2FCFBE8B13D024F5453E812DAA61DF /* Pods_ShakeReport_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShakeReport_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D53BD63364B3D698EA09E0ED4C540E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A6F60107B8AB3D485F3C1ECA45F225D5 /* Pods_ShakeReport_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShakeReport_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BA7CCBC6ACCC68042239D95BFB7DE115 /* ShakeReport-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShakeReport-prefix.pch"; sourceTree = "<group>"; };
 		C2DF20448F786B730268E7C356D8804E /* Pods-ShakeReport_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShakeReport_Tests-dummy.m"; sourceTree = "<group>"; };
 		D49FDF9F1138139AB8158299FC0CC275 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA639AEBE0A5BC374A5B23A7E249D4DE /* ShakeReport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShakeReport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB804D62AF11E738BE1CD53733CC258 /* ShakeReport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShakeReport.swift; sourceTree = "<group>"; };
 		E3DE46AC7896584179326637D3A0C582 /* Pods-ShakeReport_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ShakeReport_Tests.modulemap"; sourceTree = "<group>"; };
 		E9D7EB7F37D768F1257E3209425A6BA2 /* Pods-ShakeReport_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShakeReport_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EBAB01CBEE99E52A2FBCDC0D2A21D1A5 /* Pods-ShakeReport_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShakeReport_Example-umbrella.h"; sourceTree = "<group>"; };
 		F0BBECE2EDC1B83BEBAD4A0630D9E445 /* Pods-ShakeReport_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShakeReport_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F81A65FB4FF8453B938D64443ED3B42B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
 		FDAD0B0C8A5839D85353E6B4138FBF3B /* ShakeReport-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ShakeReport-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5588D5A45049303E9536759517A2B160 /* Frameworks */ = {
+		2D5A0DE393F96A35551055FC7F3B59BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4854A6206BEB02BC85C4BE13B4193A1 /* Foundation.framework in Frameworks */,
+				9C4B40E4803E6F245C3A2F141CABC264 /* Foundation.framework in Frameworks */,
+				56F9B48E02081F4A3039116D79C1E547 /* MessageUI.framework in Frameworks */,
+				6C5B3813DE40422F24E9CFCE3037E8E5 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,13 +91,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1CA307AD1FDD238094CF4A1BF6651AB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C664B2CE799232311CC41675825761E8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,15 +105,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2B81A794C29179CE6DC0D229A825EC8C /* Products */ = {
+		078487CA0D4EB8A230B74966998D9BF7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				946E6CEDDD5DF5809183B2A2898D46B9 /* Pods_ShakeReport_Example.framework */,
-				9E2FCFBE8B13D024F5453E812DAA61DF /* Pods_ShakeReport_Tests.framework */,
-				2FC6B51A54AE8D02EC8C4F35BA70B905 /* ShakeReport.bundle */,
-				DA639AEBE0A5BC374A5B23A7E249D4DE /* ShakeReport.framework */,
+				DCB804D62AF11E738BE1CD53733CC258 /* ShakeReport.swift */,
 			);
-			name = Products;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F23F5F009680F5716EAA1D8709F8FB91 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		63A051AA2E79EB608121C73240CA43B2 /* Support Files */ = {
@@ -145,8 +140,8 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				F3C204EAF825B6DABFFA30BBAD63FA31 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				2B81A794C29179CE6DC0D229A825EC8C /* Products */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				D06233D1A621677E3F63B21724C7CD3C /* Products */,
 				82EB413DD161E3CD54363EFF8D024B03 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -199,17 +194,9 @@
 		91C3BDEBD9772FB6587345661E575F2E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B37A498D347CE3FFF38FF9520872F148 /* Classes */,
+				078487CA0D4EB8A230B74966998D9BF7 /* Classes */,
 			);
 			path = Pod;
-			sourceTree = "<group>";
-		};
-		B37A498D347CE3FFF38FF9520872F148 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				43036566EEB082CECAC2070CAAB7A32C /* ReplaceMe.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		B99E4AF971B6CB09E47307B9F33D6D00 /* ShakeReport */ = {
@@ -222,18 +209,22 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		D06233D1A621677E3F63B21724C7CD3C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+				A6F60107B8AB3D485F3C1ECA45F225D5 /* Pods_ShakeReport_Example.framework */,
+				819D4825F439A06D23390355DD1B462A /* Pods_ShakeReport_Tests.framework */,
+				16C77AA4E10F7D8E19944AAE54356834 /* ShakeReport.framework */,
 			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+		F23F5F009680F5716EAA1D8709F8FB91 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+				5E3CF3EC2214280890E5F18F4E1A8B3A /* Foundation.framework */,
+				F81A65FB4FF8453B938D64443ED3B42B /* MessageUI.framework */,
+				A3D53BD63364B3D698EA09E0ED4C540E /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -280,19 +271,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3473CFBC0670A213ED0A9271D718803B /* Build configuration list for PBXNativeTarget "ShakeReport" */;
 			buildPhases = (
-				B76A633108AFD52D70EA7D00D1837A58 /* Sources */,
-				5588D5A45049303E9536759517A2B160 /* Frameworks */,
-				935739F2A0CB67776AB713F63887D788 /* Resources */,
+				E9FEF0D88C3F39D4A735AFD1D9C84738 /* Sources */,
+				2D5A0DE393F96A35551055FC7F3B59BB /* Frameworks */,
 				E57F854EB9F9C366602A480C2A3C82E2 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D59A77088677E40332897B9245658C03 /* PBXTargetDependency */,
 			);
 			name = ShakeReport;
 			productName = ShakeReport;
-			productReference = DA639AEBE0A5BC374A5B23A7E249D4DE /* ShakeReport.framework */;
+			productReference = 16C77AA4E10F7D8E19944AAE54356834 /* ShakeReport.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		96665F4C7D332866E9E35746C48EF17F /* Pods-ShakeReport_Tests */ = {
@@ -310,25 +299,8 @@
 			);
 			name = "Pods-ShakeReport_Tests";
 			productName = "Pods-ShakeReport_Tests";
-			productReference = 9E2FCFBE8B13D024F5453E812DAA61DF /* Pods_ShakeReport_Tests.framework */;
+			productReference = 819D4825F439A06D23390355DD1B462A /* Pods_ShakeReport_Tests.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		BFFD48D36B25C28CACB19B3F5DAB085C /* ShakeReport-ShakeReport */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5BCEB20B7F75B96F561CD36D2291A296 /* Build configuration list for PBXNativeTarget "ShakeReport-ShakeReport" */;
-			buildPhases = (
-				98E1F2750227C6BF8D331DF63E970816 /* Sources */,
-				C664B2CE799232311CC41675825761E8 /* Frameworks */,
-				EE031F6D3F247F93D97766EBC87F203C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ShakeReport-ShakeReport";
-			productName = "ShakeReport-ShakeReport";
-			productReference = 2FC6B51A54AE8D02EC8C4F35BA70B905 /* ShakeReport.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 		FF0D38D3AC3CC7CF78E7415724F61797 /* Pods-ShakeReport_Example */ = {
 			isa = PBXNativeTarget;
@@ -345,7 +317,7 @@
 			);
 			name = "Pods-ShakeReport_Example";
 			productName = "Pods-ShakeReport_Example";
-			productReference = 946E6CEDDD5DF5809183B2A2898D46B9 /* Pods_ShakeReport_Example.framework */;
+			productReference = A6F60107B8AB3D485F3C1ECA45F225D5 /* Pods_ShakeReport_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -365,35 +337,16 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 2B81A794C29179CE6DC0D229A825EC8C /* Products */;
+			productRefGroup = D06233D1A621677E3F63B21724C7CD3C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				FF0D38D3AC3CC7CF78E7415724F61797 /* Pods-ShakeReport_Example */,
 				96665F4C7D332866E9E35746C48EF17F /* Pods-ShakeReport_Tests */,
 				7BDFB6DD8032613CA2066A58E9B90FA4 /* ShakeReport */,
-				BFFD48D36B25C28CACB19B3F5DAB085C /* ShakeReport-ShakeReport */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		935739F2A0CB67776AB713F63887D788 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5BDD787EA598F0E05C546E287B852254 /* ShakeReport.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE031F6D3F247F93D97766EBC87F203C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		50C386137C7E27A78BF6BF10A1B3BF09 /* Sources */ = {
@@ -404,27 +357,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98E1F2750227C6BF8D331DF63E970816 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B76A633108AFD52D70EA7D00D1837A58 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6C4BB92DCDEF216A57BAAB44D9B15172 /* ReplaceMe.swift in Sources */,
-				677AF0AE96E7E134C60598C9060F3DC0 /* ShakeReport-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C86FE3CF50E600D48552145556CAF348 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				82E9F586CD07ADF544760E36347114B9 /* Pods-ShakeReport_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9FEF0D88C3F39D4A735AFD1D9C84738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5EC4D478AEF3F0FF8422C1A40E0D53E /* ShakeReport-dummy.m in Sources */,
+				BA77582B948BEDA0865E4579EBBC35D0 /* ShakeReport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,12 +388,6 @@
 			name = ShakeReport;
 			target = 7BDFB6DD8032613CA2066A58E9B90FA4 /* ShakeReport */;
 			targetProxy = B976576723C324A749930CB3BB85E2A8 /* PBXContainerItemProxy */;
-		};
-		D59A77088677E40332897B9245658C03 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ShakeReport-ShakeReport";
-			target = BFFD48D36B25C28CACB19B3F5DAB085C /* ShakeReport-ShakeReport */;
-			targetProxy = 2A94184C20751A3201809D65FA726FC2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -642,30 +582,6 @@
 			};
 			name = Debug;
 		};
-		A8EEA4A4ABC41C4BFE4D031B2BD703FA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33DC40599A6F77221F645604D848F8C9 /* ShakeReport.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = ShakeReport;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		BA2947338DEF567F25C334AF605E04F1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33DC40599A6F77221F645604D848F8C9 /* ShakeReport.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = ShakeReport;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		C66FF3CF8B9A243472AE5C9CDD1B2395 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 03C96EE874DA969D8F2CD6FCA7250764 /* Pods-ShakeReport_Example.release.xcconfig */;
@@ -752,15 +668,6 @@
 			buildConfigurations = (
 				09E5C0476DC73499AF2EFF568A47C8B1 /* Debug */,
 				6385ABC38391EE885BAB5819F921C4F9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5BCEB20B7F75B96F561CD36D2291A296 /* Build configuration list for PBXNativeTarget "ShakeReport-ShakeReport" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BA2947338DEF567F25C334AF605E04F1 /* Debug */,
-				A8EEA4A4ABC41C4BFE4D031B2BD703FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

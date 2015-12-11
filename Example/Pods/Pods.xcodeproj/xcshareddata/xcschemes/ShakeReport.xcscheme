@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '701C8762A20E710D3966F1C0'
+               BlueprintIdentifier = '086C661B14292DAA97B081D2'
                BlueprintName = 'ShakeReport'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'ShakeReport.framework'>

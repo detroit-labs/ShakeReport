@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19FE31D66B69FD2BE74369BA /* Pods_ShakeReport_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FB2CBE2B57436906EEA48B4 /* Pods_ShakeReport_Tests.framework */; };
 		4162C17153D1A483353A96F5 /* Pods_ShakeReport_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5540F2B43D7AE6884C6E5100 /* Pods_ShakeReport_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -14,7 +15,6 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		96316298709622AA75E85285 /* Pods_ShakeReport_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEFA1CAFF305ACC91B5927B /* Pods_ShakeReport_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,8 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FB2CBE2B57436906EEA48B4 /* Pods_ShakeReport_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShakeReport_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4686D0D08A2D318B800CF5 /* Pods-ShakeReport_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShakeReport_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShakeReport_Tests/Pods-ShakeReport_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3E86C65C8D4839B5EEB7FA1D /* Pods-ShakeReport_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShakeReport_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShakeReport_Tests/Pods-ShakeReport_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5540F2B43D7AE6884C6E5100 /* Pods_ShakeReport_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShakeReport_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		57C44AA6B18AF9A387F446A5 /* Pods-ShakeReport_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShakeReport_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShakeReport_Tests/Pods-ShakeReport_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ShakeReport_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShakeReport_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,15 +39,13 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = ShakeReport_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACE51AFB9204008FA782 /* ShakeReport_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakeReport_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		81BB14BE466C58CF858CD646 /* Pods-ShakeReport_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShakeReport_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShakeReport_Example/Pods-ShakeReport_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A111CD3FCFA7D5BBC2C6011B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AF5707CA056A9F1E501838A6 /* Pods-ShakeReport_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShakeReport_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShakeReport_Example/Pods-ShakeReport_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B0075582E0686413D1A70BFC /* Pods-ShakeReport_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShakeReport_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShakeReport_Tests/Pods-ShakeReport_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B7B22128CD38591902333114 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		CDEFA1CAFF305ACC91B5927B /* Pods_ShakeReport_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShakeReport_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F669879F612B3E6A4A052004 /* ShakeReport.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ShakeReport.podspec; path = ../ShakeReport.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96316298709622AA75E85285 /* Pods_ShakeReport_Tests.framework in Frameworks */,
+				19FE31D66B69FD2BE74369BA /* Pods_ShakeReport_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* ShakeReport_Example.app */,
-				607FACE51AFB9204008FA782 /* Tests.xctest */,
+				607FACE51AFB9204008FA782 /* ShakeReport_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,8 +144,8 @@
 			children = (
 				AF5707CA056A9F1E501838A6 /* Pods-ShakeReport_Example.debug.xcconfig */,
 				81BB14BE466C58CF858CD646 /* Pods-ShakeReport_Example.release.xcconfig */,
-				B0075582E0686413D1A70BFC /* Pods-ShakeReport_Tests.debug.xcconfig */,
-				57C44AA6B18AF9A387F446A5 /* Pods-ShakeReport_Tests.release.xcconfig */,
+				3E86C65C8D4839B5EEB7FA1D /* Pods-ShakeReport_Tests.debug.xcconfig */,
+				2D4686D0D08A2D318B800CF5 /* Pods-ShakeReport_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -154,7 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				5540F2B43D7AE6884C6E5100 /* Pods_ShakeReport_Example.framework */,
-				CDEFA1CAFF305ACC91B5927B /* Pods_ShakeReport_Tests.framework */,
+				0FB2CBE2B57436906EEA48B4 /* Pods_ShakeReport_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -200,7 +200,7 @@
 			);
 			name = ShakeReport_Tests;
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* ShakeReport_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +210,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
@@ -423,6 +423,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -491,6 +492,7 @@
 				INFOPLIST_FILE = ShakeReport/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -503,13 +505,14 @@
 				INFOPLIST_FILE = ShakeReport/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0075582E0686413D1A70BFC /* Pods-ShakeReport_Tests.debug.xcconfig */;
+			baseConfigurationReference = 3E86C65C8D4839B5EEB7FA1D /* Pods-ShakeReport_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -522,6 +525,7 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShakeReport_Example.app/ShakeReport_Example";
 			};
@@ -529,7 +533,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57C44AA6B18AF9A387F446A5 /* Pods-ShakeReport_Tests.release.xcconfig */;
+			baseConfigurationReference = 2D4686D0D08A2D318B800CF5 /* Pods-ShakeReport_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -538,6 +542,7 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShakeReport_Example.app/ShakeReport_Example";
 			};

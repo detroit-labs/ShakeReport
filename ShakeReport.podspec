@@ -1,43 +1,20 @@
-#
-# Be sure to run `pod lib lint ShakeReport.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "ShakeReport"
   s.version          = "0.1.0"
   s.summary          = "Shake to submit a bug report (w/ screenshot) via email."
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
                        ShakeReport allows your users to simply submit bug reports by shaking the device.
                        When a shake is detected, the current screen state is captured and the user is
                        prompted to submit a bug report via a mail composer with the screenshot attached.
                        DESC
-
   s.homepage         = "https://github.com/detroit-labs/ShakeReport"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "git" => "dtrenz@gmail.com" }
+  s.author           = { "Dan Trenz" => "dtrenz@gmail.com" }
   s.source           = { :git => "https://github.com/detroit-labs/ShakeReport.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/dtrenz'
-
+  s.social_media_url = 'https://twitter.com/dtrenz'
   s.platform     = :ios, '8.0'
   s.requires_arc = true
-
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'ShakeReport' => ['Pod/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.source_files = 'Pod/Classes/ShakeReport.Swift'
   s.frameworks = 'UIKit', 'MessageUI'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
