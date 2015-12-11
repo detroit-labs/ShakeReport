@@ -9,8 +9,9 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
+**NOTE:** There is a known issue with using a mail compose view controller in a simulator
+which causes some simulators simulator to crash. You will need to run the example on a
+device to test out the full report mail functionality.
 
 ## Installation
 

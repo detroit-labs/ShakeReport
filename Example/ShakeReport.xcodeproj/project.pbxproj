@@ -46,6 +46,7 @@
 		A111CD3FCFA7D5BBC2C6011B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AF5707CA056A9F1E501838A6 /* Pods-ShakeReport_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShakeReport_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShakeReport_Example/Pods-ShakeReport_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B7B22128CD38591902333114 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C50DB07B1C1B4D6F0029B1C5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		F669879F612B3E6A4A052004 /* ShakeReport.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ShakeReport.podspec; path = ../ShakeReport.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -153,6 +154,7 @@
 		AFDE288174474644C2FD3C3C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C50DB07B1C1B4D6F0029B1C5 /* MessageUI.framework */,
 				5540F2B43D7AE6884C6E5100 /* Pods_ShakeReport_Example.framework */,
 				0FB2CBE2B57436906EEA48B4 /* Pods_ShakeReport_Tests.framework */,
 			);

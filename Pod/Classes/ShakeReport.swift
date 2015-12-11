@@ -110,9 +110,9 @@ extension UIViewController: MFMailComposeViewControllerDelegate {
       
       mailComposer.mailComposeDelegate = self
       
-//      if let screenshot = screenshot, let screenshotJPEG = UIImageJPEGRepresentation(screenshot, CGFloat(1.0)) {
-//        mailComposer.addAttachmentData(screenshotJPEG, mimeType: "image/jpeg", fileName: "screenshot.jpeg")
-//      }
+      if let screenshot = screenshot, let screenshotJPEG = UIImageJPEGRepresentation(screenshot, CGFloat(1.0)) {
+        mailComposer.addAttachmentData(screenshotJPEG, mimeType: "image/jpeg", fileName: "screenshot.jpeg")
+      }
       
       presentViewController(mailComposer, animated: true, completion: nil)
     }
