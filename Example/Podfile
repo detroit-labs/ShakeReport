@@ -3,9 +3,11 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 target 'ShakeReport_Example', :exclusive => true do
-  pod "ShakeReport", :path => "../"
+  pod 'ShakeReport', :path => '../'
 end
 
 target 'ShakeReport_Tests', :exclusive => true do
-  pod "ShakeReport", :path => "../"
+  pod 'ShakeReport', :path => '../'
+  pod 'Quick', '~> 0.8.0'
+  pod 'Nimble', '3.0.0'
 end
