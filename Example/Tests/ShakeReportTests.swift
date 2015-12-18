@@ -55,5 +55,40 @@ class ShakeReportTests: XCTestCase {
     
     expect(viewController.presentReportPromptWasCalled).to(beTrue())
   }
+  
+  func testsPresentReportPrompt() {    
+    class MockViewController: UIViewController {
+      var alertTitle: String? = nil
+      var alertMessage: String? = nil
+      var reportActionTitle: String? = nil
+      var cancelActionTitle: String? = nil
+      
+      override func presentViewController(viewControllerToPresent: UIViewController, animated flag: Bool, completion: (() -> Void)?) {
+        if let alertController = viewControllerToPresent as? UIAlertController {
+          alertTitle = alertController.title
+          alertMessage = alertController.message
+          
+          if let reportAction = alertController.actions.first {
+            reportActionTitle = reportAction.title
+          }
+          
+          if let cancelAction = alertController.actions.last {
+            cancelActionTitle = cancelAction.title
+          }
+        }
+      }
+    }
+    
+    let viewController = MockViewController()
+    
+    viewController.presentReportPrompt { (action) -> Void in
+      // no-op
+    }
+    
+    expect(viewController.alertTitle).to(equal("Shake detected!"))
+    expect(viewController.alertMessage).to(equal("Would you like to report a bug?"))
+    expect(viewController.reportActionTitle).to(equal("Report A Bug"))
+    expect(viewController.cancelActionTitle).to(equal("Cancel"))
+  }
     
 }
