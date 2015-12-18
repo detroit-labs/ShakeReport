@@ -11,7 +11,7 @@ import MessageUI
 
 public class ShakeReport {
   
-  private struct Config {
+  struct Config {
     static var toRecipients: [String]?
     static var subject: String?
   }
@@ -43,20 +43,26 @@ extension UIViewController: MFMailComposeViewControllerDelegate {
     if motion == .MotionShake {
       let cachedScreenshot = captureScreenshot()
       
-      let actionSheet = UIAlertController(title: "Shake detected!", message: "Would you like to report a bug?", preferredStyle: .ActionSheet)
-      
-      let reportBugAction = UIAlertAction(title: "Report A Bug", style: .Default, handler: { (action) -> Void in
-        self.composeReport(cachedScreenshot)
+      presentReportPrompt({ (action) -> Void in
+        self.presentReportComposeView(cachedScreenshot)
       })
-      
-      let cancelAction = UIAlertAction(title: "Cancel", style: .Cancel) { _ in }
-      
-      actionSheet.addAction(reportBugAction)
-      actionSheet.addAction(cancelAction)
-      
-      presentViewController(actionSheet, animated: true, completion: nil)
     }
   }
+  
+  // MARK: - Alert
+  
+  func presentReportPrompt(reportActionHandler: (UIAlertAction) -> Void) {
+    let actionSheet = UIAlertController(title: "Shake detected!", message: "Would you like to report a bug?", preferredStyle: .ActionSheet)
+    
+    let reportAction = UIAlertAction(title: "Report A Bug", style: .Default, handler: reportActionHandler)
+    let cancelAction = UIAlertAction(title: "Cancel", style: .Cancel) { _ in }
+    
+    actionSheet.addAction(reportAction)
+    actionSheet.addAction(cancelAction)
+    
+    presentViewController(actionSheet, animated: true, completion: nil)
+  }
+  
   
   // MARK: - Report methods
   
@@ -65,7 +71,7 @@ extension UIViewController: MFMailComposeViewControllerDelegate {
   
   - returns: Screenshot image.
   */
-  private func captureScreenshot() -> UIImage? {
+  func captureScreenshot() -> UIImage? {
     var screenshot: UIImage? = nil
     
     if let layer = UIApplication.sharedApplication().keyWindow?.layer {
@@ -91,7 +97,7 @@ extension UIViewController: MFMailComposeViewControllerDelegate {
    
    - parameter screenshot: The screenshot to attach to the report.
    */
-  private func composeReport(screenshot: UIImage?) {
+  func presentReportComposeView(screenshot: UIImage?) {
     if MFMailComposeViewController.canSendMail() {
       let mailComposer = MFMailComposeViewController()
       
